@@ -1,0 +1,4 @@
+mon_env
+*.pyc
+staticfiles
+.env

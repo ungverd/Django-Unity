@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">login</button>
+    </form>
+    <p>Are not registred? <a href='/register'>Registration</a></p>
+  </body>
+</html>

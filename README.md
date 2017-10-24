@@ -1,0 +1,1 @@
+Django configuration is based of Heroku Django installation
